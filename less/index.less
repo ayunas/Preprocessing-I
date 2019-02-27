@@ -86,12 +86,17 @@ header {
     }
 }
 
+.container {
+    margin: 0 20px;
+}
+
 .top {
     margin: 40px;
     background: lightgray;
     
     img {
         width:40%;
+        height:40%;
         margin: 40px;
     }
     
@@ -114,5 +119,52 @@ header {
     }
 }
 
+.main {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+        
+    .box {
+        width: 50%;
+        margin: 0 auto;
+        
+        h2 {
+            font-size: 24px;
+            margin: 10px 10px 10px 0;
+            max-width: 60%;
+        }
+        
+        ul {
+            border: 1px dotted grey;
+            
+            li {
+            margin: 10px;
+            border-bottom: 1px dotted grey;
+            }
+            
+            li:last-child{
+                margin-bottom:0;
+            }
+        }
+        
+    }
+    
+    .certifications {
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center;
+        
+        img {
+            max-width:50%;
+        }
+    }
+    
+    
+        
+        
+    
+    
+    
+}
 
 

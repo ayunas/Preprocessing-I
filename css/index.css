@@ -150,12 +150,16 @@ header nav a {
   text-decoration: none;
   color: black;
 }
+.container {
+  margin: 0 20px;
+}
 .top {
   margin: 40px;
   background: lightgray;
 }
 .top img {
   width: 40%;
+  height: 40%;
   margin: 40px;
 }
 .top h1 {
@@ -172,4 +176,36 @@ header nav a {
   padding: 10px;
   background: grey;
   color: white;
+}
+.main {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .box {
+  width: 50%;
+  margin: 0 auto;
+}
+.main .box h2 {
+  font-size: 24px;
+  margin: 10px 10px 10px 0;
+  max-width: 60%;
+}
+.main .box ul {
+  border: 1px dotted grey;
+}
+.main .box ul li {
+  margin: 10px;
+  border-bottom: 1px dotted grey;
+}
+.main .box ul li:last-child {
+  margin-bottom: 0;
+}
+.main .certifications {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.main .certifications img {
+  max-width: 50%;
 }
