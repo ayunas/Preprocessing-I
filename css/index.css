@@ -130,7 +130,46 @@ table {
 * {
   box-sizing: border-box;
 }
-html,
-body {
-  height: 100%;
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-family: sans-serif;
+}
+header h1 {
+  font-size: 30px;
+}
+header nav {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 10px;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+.top {
+  margin: 40px;
+  background: lightgray;
+}
+.top img {
+  width: 40%;
+  margin: 40px;
+}
+.top h1 {
+  font-size: 32px;
+  margin: 20px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+.top p {
+  margin: 20px;
+}
+.top button {
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  background: grey;
+  color: white;
 }
