@@ -201,11 +201,23 @@ header nav a {
 .main .box ul li:last-child {
   margin-bottom: 0;
 }
-.main .certifications {
+.main .certifications.box {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
-.main .certifications img {
-  max-width: 50%;
+.main .certifications.box img {
+  max-width: 40%;
+  max-height: 30%;
+  margin: 10px;
+}
+.main .certifications.box h2 {
+  display: block;
+}
+.main .certs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .skills li {
+  line-height: 2.9;
 }
