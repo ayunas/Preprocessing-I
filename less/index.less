@@ -88,6 +88,7 @@ header {
 
 .container {
     margin: 0 20px;
+    max-width: 800px;
 }
 
 .top {
@@ -177,7 +178,34 @@ header {
         }
     }
     
-    
+   
 }
 
+.bottom {
+     table {
+        th {
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+            text-decoration: underline;
+        }
+        
+        td {
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        
+        tr {
+            vertical-align: center;
+        }
+        
+    }
+    
+    tr:nth-child(even) {
+            background: lightgrey;
+        }
+}
 
