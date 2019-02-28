@@ -56,6 +56,7 @@ table {
 
 * {
     box-sizing: border-box;
+    font-family: 'Economica', sans-serif;
 }
 
 html {
@@ -70,6 +71,7 @@ header {
     
     h1 {
         font-size: 30px;
+        font-family: 'Economica', sans-serif;
     }
     
     nav {
@@ -87,13 +89,17 @@ header {
 }
 
 .container {
-    margin: 0 20px;
-    max-width: 800px;
+    margin: 0 auto;
+    max-width: 1000px;
+    border: 1px solid black;
 }
+
+@baby-blue :  rgb(230, 243, 255);
 
 .top {
     margin: 40px;
-    background: lightgray;
+    background: @baby-blue; 
+;
     
     img {
         width:40%;
@@ -177,11 +183,15 @@ header {
             line-height: 2.9;
         }
     }
-    
-   
 }
 
 .bottom {
+    h2 {
+        font-size: 30px;
+        margin: 20px 0;
+        
+    }
+    
      table {
         th {
             font-size: 20px;
@@ -201,11 +211,20 @@ header {
         tr {
             vertical-align: center;
         }
-        
     }
     
     tr:nth-child(even) {
             background: lightgrey;
         }
+    
+    .box {
+        margin-left: 50px;
+    }
 }
+
+footer {
+    text-align: center;
+    margin: 50px;
+}
+
 

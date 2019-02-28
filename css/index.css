@@ -129,6 +129,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  font-family: 'Economica', sans-serif;
 }
 header {
   display: flex;
@@ -138,6 +139,7 @@ header {
 }
 header h1 {
   font-size: 30px;
+  font-family: 'Economica', sans-serif;
 }
 header nav {
   display: flex;
@@ -151,12 +153,13 @@ header nav a {
   color: black;
 }
 .container {
-  margin: 0 20px;
-  max-width: 800px;
+  margin: 0 auto;
+  max-width: 1000px;
+  border: 1px solid black;
 }
 .top {
   margin: 40px;
-  background: lightgray;
+  background: #e6f3ff;
 }
 .top img {
   width: 40%;
@@ -222,6 +225,10 @@ header nav a {
 .main .skills li {
   line-height: 2.9;
 }
+.bottom h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
 .bottom table th {
   font-size: 20px;
   padding: 10px;
@@ -239,4 +246,11 @@ header nav a {
 }
 .bottom tr:nth-child(even) {
   background: lightgrey;
+}
+.bottom .box {
+  margin-left: 50px;
+}
+footer {
+  text-align: center;
+  margin: 50px;
 }
